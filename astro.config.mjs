@@ -8,7 +8,7 @@ import rehypeKatex from "rehype-katex";
 // https://astro.build/config
 export default defineConfig({
   site: "https://joackob.github.io",
-  base: "/nipon-astro-theme",
+  base: "/demo-nipon-theme",
   integrations: [mdx(), sitemap(), tailwind()],
   markdown: {
     remarkPlugins: [remarkMath],
